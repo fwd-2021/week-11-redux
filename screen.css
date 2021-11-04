@@ -51,10 +51,14 @@ h1 a {
 #navigation {
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 15.85px;
+  margin-top: 6px;
 }
 #navigation a {
   background-color: #555;
   color: #EEE;
+  display: block;
+  line-height: 0;
+  padding: 24px;
   text-decoration: none;
 }
 #navigation li {
