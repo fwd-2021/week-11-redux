@@ -23,13 +23,13 @@ html {
   background-color: #EEE;
   color: #111;
   font-family: Georgia, "Times New Roman", Times, Roman, serif;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
 }
 
 h1 {
-  font-size: 32.004px;
-  line-height: 36px;
+  font-size: 1.778em; /* 32.004 / 18 = 1.778 */
+  line-height: 1.1248593926em; /* 36 / 32.004 = 1.1248593926 */
 }
 
 h1 a {
@@ -50,15 +50,15 @@ h1 a {
 /* Modular Styles */
 #navigation {
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 15.85px;
-  margin-top: 6px;
+  font-size: 0.8805555556em; /* 15.85 / 18 = 0.8805555556 */
+  margin-top: 0.3785488959em; /* 6 / 15.85 = 0.3785488959 */
 }
 #navigation a {
   background-color: #555;
   color: #EEE;
   display: block;
   line-height: 0;
-  padding: 24px;
+  padding: 1.5141955836em; /* 24 / 15.85 = 1.5141955836 */
   text-decoration: none;
 }
 #navigation a:hover,
@@ -68,12 +68,12 @@ h1 a {
   background-color: #777;
 }
 #navigation li {
-  margin-bottom: 6px;
+  margin-bottom: 0.3785488959em; /* 6 / 15.85 = 0.3785488959 */
 }
 
 /* State Styles */
-
-@media screen and (min-width: 610px) {
+/* 610 / 16 = 38.125 */
+@media screen and (min-width: 38.125em) {
   #navigation ul {
     display: flex;
   }
