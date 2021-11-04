@@ -70,3 +70,14 @@ h1 a {
 #navigation li {
   margin-bottom: 6px;
 }
+
+/* State Styles */
+
+@media screen and (min-width: 610px) {
+  #navigation ul {
+    display: flex;
+  }
+  #navigation ul > li {
+    flex: 1 0 auto;
+  }
+}
