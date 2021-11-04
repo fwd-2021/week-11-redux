@@ -7,6 +7,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+html {
+  font-family: Georgia, "Times New Roman", Times, Roman, serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 32.004px;
+  line-height: 36px;
+}
 
 /* Accessibly hide certain elements */
 .p-honorific-suffix,
