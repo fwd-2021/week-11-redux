@@ -61,6 +61,12 @@ h1 a {
   padding: 24px;
   text-decoration: none;
 }
+#navigation a:hover,
+#navigation a:active,
+#navigation a:focus,
+#about #nav-about {
+  background-color: #777;
+}
 #navigation li {
   margin-bottom: 6px;
 }
