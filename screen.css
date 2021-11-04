@@ -8,6 +8,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 html {
+  background-color: #EEE;
+  color: #111;
   font-family: Georgia, "Times New Roman", Times, Roman, serif;
   font-size: 18px;
   line-height: 24px;
@@ -16,6 +18,11 @@ html {
 h1 {
   font-size: 32.004px;
   line-height: 36px;
+}
+
+h1 a {
+  color: inherit;
+  text-decoration: none;
 }
 
 /* Accessibly hide certain elements */
