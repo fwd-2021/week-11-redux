@@ -7,6 +7,18 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+/*
+  Typographic Grid Values
+  base font-size (Georgia): 18px
+  base font-size (Verdana): 15.85px (18 / 1.136)
+  /* Ratio of Verdana to Georgia: 1.136
+  base line-height: 24px
+  Modular Scale, Georgia:
+    https://www.modularscale.com/?18&px&1.778
+  Modular Scale, Verdana
+    https://www.modularscale.com/?15.85&px&1.778
+*/
 html {
   background-color: #EEE;
   color: #111;
@@ -38,6 +50,7 @@ h1 a {
 /* Modular Styles */
 #navigation {
   font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 15.85px;
 }
 #navigation a {
   background-color: #555;
